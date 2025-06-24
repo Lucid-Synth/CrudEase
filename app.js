@@ -44,4 +44,4 @@ app.post("/create", async(req,res) => {
   res.redirect("/read");
 })
 
-app.listen(3000);
+module.exports = app;
